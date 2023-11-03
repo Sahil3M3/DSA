@@ -6,9 +6,9 @@ public class SelectionSort {
 		for(int j=0;j<size;j++)
 		{
 		for(int i=0;i<size;i++)
-		{count++;
+		{
 			if(a[j]<a[i])
-			{
+			{count++;
 				int temp=a[j];
 				a[j]=a[i];
 				a[i]=temp;

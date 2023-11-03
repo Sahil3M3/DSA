@@ -7,9 +7,9 @@ static public int bubbleSort(int a[],int size)
 	{
 	for(int i=0;i<size-1;i++)
 	{
-		count++;
+		
 		if(a[i]>a[i+1])
-		{
+		{count++;
 			int t=a[i];
 			a[i]=a[i+1];
 			a[i+1]=t;
